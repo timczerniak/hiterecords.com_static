@@ -1,0 +1,224 @@
+body {
+	font-family: arial;
+	font-size: 13px;
+	color: #000000;
+	background: #ffffff;
+}
+
+a {
+	color: #999999;
+	text-decoration: underline;
+}
+
+div.content {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+div.header {
+	padding-bottom: 80px;
+	display: block;
+}
+div.main {
+	width: 900px;
+	min-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.menu {
+	float: right;
+	width: 1000;
+}
+div.menu div {
+	display: table-cell;
+	vertical-align: middle;
+}
+div.menu div.logo {
+	padding-right: 30px;
+}
+div.menu div.menu_link {
+	font-family: georgia;
+	font-size: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+div.menu div.menu_link a {
+	text-decoration: none;
+}
+div.menu div.menu_link a:hover {
+	text-decoration: underline;
+}
+
+div.page_title {
+	clear: both;
+	text-align: left;
+	font-family: georgia;
+	font-size: 24px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+div.index_left {
+	float: left;
+	clear: left;
+	display: inline;
+	text-align: left;
+	width: 550;
+}
+div.index_rr_title {
+	font-family: georgia;
+	font-size: 16px;
+	font-weight: bold;
+}
+div.index_releases {
+	text-align: left;
+	width: 100%;
+}
+div.index_release {
+	padding: 9px;
+	display: inline-block;
+	text-align: center;
+}
+div.index_release img {
+	width: 150;
+	height: 150;
+}
+div.index_main {
+	padding: 20px;
+	padding-top: 30px;
+}
+div.index_right {
+	float: right;
+	clear: right;
+	display: inline;
+	text-align: center;
+	width: 250;
+}
+
+div.grid_links {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.grid_link {
+	padding: 10px;
+	display: inline-block;
+	text-align: center;
+}
+div.grid_link img {
+	width: 200;
+	height: 200;
+}
+
+div.main div.artist_left {
+	float: left;
+	clear: left;
+	display: inline;
+	text-align: left;
+	width: 650;
+}
+div.artist_bio {
+	padding-top: 30px;
+}
+div.main div.artist_right {
+	float: right;
+	clear: right;
+	display: inline;
+	text-align: center;
+	width: 200;
+}
+div.artist_picture {
+}
+div.artist_picture img {
+	width: 350;
+	height: 350;
+}
+div.artist_release img {
+	max-width: 150;
+	max-height: 150;
+}
+
+div.release_artist_link {
+	clear: both;
+	text-align: left;
+	font-family: georgia;
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+div.main div.release_left {
+	float: left;
+	clear: left;
+	display: inline;
+	text-align: left;
+	width: 500;
+}
+div.release_cover {
+	display: inline;
+	float: left;
+	clear: left;
+	width: 200;
+	height: 200;
+}
+div.release_cover img {
+	width: 200;
+	height: 200;
+}
+div.release_tracklist {
+	display: inline;
+	float: right;
+	clear: right;
+	width: 300;
+}
+div.release_info {
+	clear: both;
+	padding-top: 10px;
+}
+div.main div.release_right {
+	float: right;
+	clear: right;
+	display: inline;
+	text-align: center;
+	width: 400;
+}
+div.release_right table {
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.release_right table td {
+	padding: 5px;
+}
+
+div.slideshow {
+	height: 267;
+	width: 400;
+	display: block;
+}
+div.slideshow div.slideshow_image {
+	height: 267;
+	width: 400;
+	position:absolute;
+	display: block;
+	clear: both;
+}
+
+div.digitaldownload_cover img {
+	width: 200;
+	height: 200;
+}
+
+div.main div.download {
+	clear: both;
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+div.foot {
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+	font-size: 10px;
+}
