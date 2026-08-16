@@ -71,7 +71,7 @@
 	</div>
 </div>
 <div class="release_right">
-	<script src="http://media.hiterecords.com/js/jquery.js"></script>
+	<script src="/media/js/jquery.js"></script>
 <script>
 	function transition() {
 		clearTimeout($.slideshow_timeout);
@@ -91,22 +91,16 @@
 		if (imgs.length > 1) {
 			$("div.slideshow").click(function() { transition(); });
 			imgs.hide();
-			$("div.slideshow div.slideshow_image:/media
+			$("div.slideshow div.slideshow_image:nth-child(1)").show();
 			$.slideshow_index = 1;
-			$.slideshow_transition = 1000;/media
-			$.slideshow_duration = 4000;/media
-			$.slideshow_timeout = setTimeout("tra/mediation);
-		}/media
+			$.slideshow_transition = 1000;
+			$.slideshow_duration = 4000;
+			$.slideshow_timeout = setTimeout("transition()", $.slideshow_duration);
+		}
 	});
 </script>
 <div class="slideshow" id="slideshow">
-	
-	<div class="slideshow_image"><img src="http://media.hiterecords.com/img/slideshows/HITE07/HITE07_1.jpg"/></div>
-	
-	<!-- <div class="slideshow_image"><img src="http://media.hiterecords.com/img/slideshows/HITECD01/HITECD01_1.jpg"/></div>
-	<div class="slideshow_image"><img src="http://media.hiterecords.com/img/slideshows/HITECD01/HITECD01_2.jpg"/></div>
-	<div class="slideshow_image"><img src="http://media.hiterecords.com/img/slideshows/HITECD01/HITECD01_3.jpg"/></div>
-	<div class="slideshow_image"><img src="http://media.hiterecords.com/img/slideshows/HITECD01/HITECD01_4.jpg"/></div> -->
+	<div class="slideshow_image"><img src="/media/img/slideshows/HITE07/HITE07_1.jpg"/></div>
 </div>
 	<table>
 		
